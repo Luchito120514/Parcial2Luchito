@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acortador de enlaces</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Acortador de enlaces</h1>
+    <form id="form">
+      <input type="text" id="url" placeholder="https://ejemplo.com/pagina-larga" required>
+      <button type="submit">Acortar</button>
+    </form>
+    <p id="error" class="error"></p>
+    <div id="result" hidden>
+      <input type="text" id="short" readonly>
+      <button id="copy">Copiar</button>
+    </div>
+    <p id="copied" class="ok"></p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

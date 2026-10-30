@@ -1,4 +1,4 @@
-const API_URL = "http://CAMBIAR-POR-IP-EC2:8000";
+const API_URL = "http://34.224.168.92:8000";
 
 const form = document.getElementById("form");
 const urlInput = document.getElementById("url");
